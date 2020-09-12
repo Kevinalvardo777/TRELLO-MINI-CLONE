@@ -44,7 +44,7 @@ const Tarea = ({tarea}) => {
                 </button>
             </div>
         </li>
-     );
+     ); 
 }
  
 export default Tarea;
