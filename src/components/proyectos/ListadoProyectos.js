@@ -1,7 +1,6 @@
 import React, { useContext, useEffect } from 'react';
 import Proyecto from './Proyecto'
 import proyectoContext from '../../context/proyectos/proyectoContext';
-import { OBTENER_PROYECTOS } from '../../types';
 import { CSSTransition, TransitionGroup } from 'react-transition-group'
 
 
@@ -14,6 +13,7 @@ const ListadoProyectos = () => {
     // Obtener proyectos cuando carga el componente
     useEffect(() => {
         obtenerProyectos();
+        // eslint-disable-next-line
     }, []);
 
     // Revisar si el proyecto tiene contenidos

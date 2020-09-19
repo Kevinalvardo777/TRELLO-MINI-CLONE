@@ -1,6 +1,6 @@
 import React, {useReducer} from 'react';
 
-import {v1 as uuid} from "uuid"; 
+import {v4 as uuid} from "uuid"; 
 
 import proyectoContext from './proyectoContext';
 import proyectoReducer from './proyectoReducer';
