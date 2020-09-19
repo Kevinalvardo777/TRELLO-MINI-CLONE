@@ -42,7 +42,7 @@ const ListadoTareas = () => {
                                 classNames="tarea"
                             >
                                 <Tarea 
-                                    key={tarea.id}
+                                   
                                     tarea={tarea}
                                 />
                             </CSSTransition>
