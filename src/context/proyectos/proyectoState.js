@@ -97,7 +97,7 @@ const ProyectoState = props => {
                 agregarProyecto, 
                 mostrarError, 
                 proyectoActual, 
-                eliminarProyecto
+                eliminarProyecto         
             }}
         >
             {props.children}
